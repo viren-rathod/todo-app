@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Todo App with React, TypeScript and Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo application built with React, TypeScript, Material UI, and LocalStorage
 
-Currently, two official plugins are available:
+### Preview
+![Preview](https://github.com/viren-rathod/todo-app/assets/127713305/6138cffb-74c9-4c8a-9f59-d0fe7127847b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Preview
+![Preview](https://github.com/viren-rathod/todo-app/assets/127713305/425301e0-35e0-4f96-9d5c-dfd9b535b270)
 
-## Expanding the ESLint configuration
+### Preview
+![Preview](https://github.com/viren-rathod/todo-app/assets/127713305/cea2bcac-be4b-4555-b37e-790657cbd3f4)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Add, edit, and delete tasks.
+- Mark tasks as completed.
+- Tasks are saved to localStorage, so your data persists across sessions.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/): A statically typed superset of JavaScript.
+- [Material UI](https://material-ui.com/): A popular React UI framework for building elegant and responsive applications.
