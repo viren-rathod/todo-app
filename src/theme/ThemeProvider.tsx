@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 const theme = createTheme({
   typography: {
-    fontFamily: ["REM", "sans-serif"].join(","),
+    fontFamily: ["Fira Code", "REM", "sans-serif"].join(","),
   },
   palette: {
     mode: "dark",
@@ -21,6 +21,9 @@ const theme = createTheme({
           backgroundColor: "rgba(255, 255, 255, 0.035)",
           color: "primary.main",
           borderRadius: "8px",
+          ":hover": {
+            color: "#64ffda",
+          },
         },
       },
     },
@@ -35,6 +38,7 @@ const theme = createTheme({
       styleOverrides: {
         tooltip: {
           backgroundColor: "#233554",
+          color: "#64ffda",
         },
       },
     },

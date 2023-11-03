@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=REM:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
 /* CSS Reset */
 
@@ -38,8 +39,8 @@ html {
 
 body {
   /* background-color: #1e325e; */
-  background-color: #3c424a;
-  font-family: "REM", sans-serif !important;
+  background-color: #0a192f;
+  font-family: "Fira Code", "REM", sans-serif !important;
 }
 
 img {

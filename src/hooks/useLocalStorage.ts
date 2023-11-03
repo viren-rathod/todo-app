@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
+import { Task } from "../interfaces/Task";
 
-export const useLocalStorage = (key: string, initValue: Array<string>) => {
+export const useLocalStorage = (
+  key: string,
+  initValue: Array<string>
+): [value: Task[], setValue: React.Dispatch<React.SetStateAction<Task[]>>] => {
   /**
    * getting the stored values from the localStorage
    */

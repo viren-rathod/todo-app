@@ -43,7 +43,7 @@ const Item = ({ taskItem, deleteTask, checkTask, editTask }: Props) => {
         <Typography
           variant="h6"
           ml={1.6}
-          sx={{ textDecoration: isChecked ? "line-through" : "none" }}
+          sx={{color:"#64ffda", textDecoration: isChecked ? "line-through" : "none" }}
         >
           {value}
         </Typography>

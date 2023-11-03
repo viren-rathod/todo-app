@@ -15,7 +15,7 @@ export const textFieldStyle = {
   "& fieldset": {
     borderColor: "rgba(255, 255, 255, 0.125)",
   },
-  backgroundColor: "#343a40",
+  // backgroundColor: "#343a40",
   input: {
     paddingLeft: "3rem",
   },
@@ -24,6 +24,8 @@ export const textFieldStyle = {
       borderColor: "red !important",
     },
   },
+  backgroundColor: "#233554",
+  borderRadius: "5px"
 };
 
 export const taskBoxStyle = {

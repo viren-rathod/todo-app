@@ -65,10 +65,8 @@ const Todo = () => {
    * Edit a Task
    */
   const editTask = (taskItem: Task) => {
-    const itemToEdit: Task = tasks.find(
-      (item: Task) => item.id === taskItem.id
-    );
-    setInputValue(itemToEdit.value);
+    const itemToEdit = tasks.find((item: Task) => item.id === taskItem.id);
+    itemToEdit && setInputValue(itemToEdit.value);
     setIsEditing(true);
     setEditedItemId(taskItem.id);
   };
